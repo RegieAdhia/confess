@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #EA8FEA;
+    font-family: 'Delius', cursive;
+}
+
+h1{
+    text-align: center;
+    font-size: 24px;
+
+}
+
+span{
+    color: #6096B4;
+}
+
+h3{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.paper{
+    max-width: 700px;
+    margin: 10px 5%;
+    background-color: #F6E6C2;
+    border-radius: 3%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.heart{
+    color: red;
+    font-size: 60px;
+    animation-name: heart;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heart{
+    0%   {color: red;}
+    25%  {color: #FD8A8A;}
+    50%  {color: #F1F7B5;}
+    75%  {color: #A8D1D1;}
+    100% {color: #9EA1D4;}
+}
